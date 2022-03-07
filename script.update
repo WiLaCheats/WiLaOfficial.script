@@ -36,7 +36,7 @@ gg.clearResults()
 gg.alert("👹 Oyununuz 64 Bit Olarak Tespit Edildi 👹","🇴 🇰")
 else
 gg.alert("⚠️ libil2cpp.so Dosyası Bulunamadı ⚠️\n⚠️ Scripti Tekrar Açınız ⚠️")
-os["exit"]()
+WRSK = 0
 end
 end
 end
