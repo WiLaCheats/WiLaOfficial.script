@@ -1,0 +1,130 @@
+bit = 31
+if bit == 31 then
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("h7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 b0 e1 39 02 00 02 00 05", gg.TYPE_BYTE)
+gg.refineNumber("h7f", gg.TYPE_BYTE)
+if gg.getResultsCount() == 1 then
+bit = 32
+s = gg.getResultCount()
+l32 = gg.getResults(s)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("h7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 00 6c c8 00 00 02 00 05", gg.TYPE_BYTE)
+gg.refineNumber("h7f", gg.TYPE_BYTE)
+g = gg.getResultCount()
+unity32 = gg.getResults(g)
+gg.clearResults()
+gg.alert("👹 Oyununuz 32 Bit Olarak Tespit Edildi 👹","🇴 🇰")
+end
+if bit == 31 then
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("h7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 f0 0e 71 00 00 00 00 00 40 00 00 00 00 00 00 00", gg.TYPE_BYTE)
+gg.refineNumber("h7f", gg.TYPE_BYTE)
+if gg.getResultsCount() == 1 then
+bit = 64
+n = gg.getResultCount()
+l64 = gg.getResults(n)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("h7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 70 9c 0a 00 00 00 00 00 40 00 00 00 00 00 00 00", gg.TYPE_BYTE)
+gg.refineNumber("h7f", gg.TYPE_BYTE)
+k = gg.getResultCount()
+unity = gg.getResults(k)
+gg.clearResults()
+gg.alert("👹 Oyununuz 64 Bit Olarak Tespit Edildi 👹","🇴 🇰")
+else
+gg.alert("⚠️ libil2cpp.so Dosyası Bulunamadı ⚠️\n⚠️ Scripti Tekrar Açınız ⚠️")
+os["exit"]()
+end
+end
+end
+if bit == 32 then
+bypass1 = 0x8ABEB8
+bypass2 = 0x566998
+bypass3 = 0x89A9A8
+bypass4 = 0xAF40C0 --ConnectionsMenu GetConnectionButton
+bypass5 = 0xAF416C --ConnectionsMenu CreateConnectionButton
+bypass6 = 0x533E14 --BackendManager GetSessionToken
+bypass7 = 0x533CB4 --BackendManager SetSessionToHeaders
+bypass8 = 0x7F7858 --abstract class ProfileCardFindRequ/GetHeaders
+bypass9 = 0x8D3C20 --FadeVictoryMusic
+espradar = 0x93D258 --get_FollowedCharacterTeamIndex
+radarred = 0xA566E8 --get_SpottedLocally
+Tr1 = 0x1CFE8A0 --Raycast(Vector3 origin, Vector3 direction, float
+Tr2 = 0xA59398 --get_IsVisible / public class charactermodel
+norec = 0xA633C0 --applyrecoil
+speee = 0xA5710C --getcurrentmaxspeed
+hdrai = 0x6BC2A8 --raycastcharacters
+byrai = 0x6BC2A8 --raycastcharacters
+htb = 0x6BC2A8 --raycastcharacters
+sprd = 0xA632AC --updatespread
+aimpnch = 0xA63548 --applyaimpunch
+noflsh = 0x6B16F0 --raycastgrenade
+wallbng = 0x6BB26C --gethitmaterial
+crossh = 0x68CFA4 --get_Crosshair
+blur = 0xA7F804 --set_spread
+facedck = 0xA5C2B4 --Crouchlerp
+spawntdm = 0xC4B394 --get_stats
+specteam = 0x93CA64 --get_isviewlocalcharacter
+shtdie = 0x66F7B0 --characterfire
+stickwall = 0x1D01E3C  --get_normal / public struct RaycastHit
+bnnyhp = 0x1D01E50 --get_distance / public struct RaycastHit
+fOv = 0x42EFB4
+walkwall = 0x63186C --getcapsuleparameters
+reloadallow = 0x64DC00 --isreloadingpossible
+supresor = 0x68D0E4 --get_suppressor
+tutorialpas1 = 0x81802C --class tutorialmanager
+tutorialpas2 = 0x8182AC --class tutorialmanager
+tutorialpas3 = 0x8179B0 --class tutorialmanager
+tutorialpas4 = 0x81834C --class tutorialmanager
+namespof = 0x630970 --class killnotif
+ptban1 = 0x58FB80 --get_issinglemember
+ptban2 = 0x590720 --setstatus
+plywhlbn = 0x590A20 --setrankedenabled
+dambbots = 0x8D7AE4 --isvalidtarget
+end
+if bit == 64 then
+bypass1 = 0xCA754C
+bypass2 = 0x9FFA2C
+bypass3 = 0xCB64E0
+bypass4 = 0xE8F364 --ConnectionsMenu GetConnectionButton
+bypass5 = 0xE8F3FC --ConnectionsMenu CreateConnectionButton
+bypass6 = 0x9D5BB8 --BackendManager GetSessionToken
+bypass7 = 0x9D5A90 --BackendManager SetSessionToHeaders
+bypass8 = 0xC20D74 --abstract class ProfileCardFindRequ/GetHeaders
+espradar = 0xD2C304 --get_followedcharacterteamindex
+radarred = 0xE111A0 --get_spottedlocally
+cindicato = 0xB478E4 --createfriendindicator
+Tr1 = 0xE1347C --get_IsVisible / public class charactermodel
+Tr2 = 0x1DC7D30 --Raycast(Vector3 origin, Vector3 direction, float
+norec = 0xE1AB88 --applyrecoil
+aimasst = 0xC5DCCC --get_gravityapproachfactor
+speeds = 0xE11984 --getcurrentmaxspeed
+hdrai = 0xB18614 --raycastcharacter
+byrai = 0xB18614 --raycastcharacter
+sprd = 0xE1AAE0 --updatespread
+aimpnch = 0xE1AC94 --applyaimpunch
+noflsh = 0xB103E8 --raycastgrenade
+wallbng = 0xB17D94 --gethitmaterial
+crossh = 0xAF2974 --get_Crosshair
+blur = 0xE30948 --set_spread
+facedck = 0xE15980 --Crouchlerp
+spawntdm = 0xFB3228 --getstats
+specteam = 0xD2BD00 --get_isviewlocalcharacter
+shtdie = 0xAC45EC --characterfire /c class localcharacter
+stickwall = 0x1DCAF54  --get_normal / public struct RaycastHit
+bnnyhp = 0x1DCAF60 --get_distance / public struct RaycastHit
+fOv = 0xCE5000
+walkwall = 0xAA7364 --getcapsuleparameters
+reloadallow = 0xABD2C8 --isreloadingpossible
+supresor = 0xAF2AC0 --get_suppressor
+tutorialpas1 = 0xC3AF38 --class tutorialmanager
+tutorialpas2 = 0xC3B140 --class tutorialmanager
+tutorialpas3 = 0xC3AA38 --class tutorialmanager
+tutorialpas4 = 0xC3B1C4 --class tutorialmanager
+namespof = 0xAA6860 --class killnotif
+ptban1 = 0xA223F8 --get_issinglemember
+ptban2 = 0xA22D44 --setstatus
+plywhlbn = 0xA22FCC --setrankedenabled
+dambbots = 0xCDA1C4 --isvalidtarget
+end
