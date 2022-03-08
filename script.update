@@ -1,5 +1,5 @@
 --discord.gg/wila ----- Made By 🔱 LasTPoinT#4361 & Wilz#0422 🔱
-gameversion = "1.31.0.f1727"
+gameversion = "1.31.0.f1728"
 bit = 31
 if bit == 31 then
 gg.setRanges(gg.REGION_CODE_APP)
