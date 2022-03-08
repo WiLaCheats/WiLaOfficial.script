@@ -42,7 +42,7 @@ end
 end
 if bit == 32 then
 bypass1 = 0x8E2014
-bypass2 = 0x53A29C
+bypass2 = 0x537EAC
 bypass3 = 0x7A6FF8
 bypass4 = 0xAFD984 --ConnectionsMenu GetConnectionButton
 bypass5 = 0xAFDA30 --ConnectionsMenu CreateConnectionButton
