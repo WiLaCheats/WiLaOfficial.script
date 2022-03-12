@@ -41,14 +41,14 @@ end
 end
 end
 if bit == 32 then
-bypass1 = 0x8E2014
-bypass2 = 0x537EAC
-bypass3 = 0x7A6FF8
-bypass4 = 0xAFD984 --ConnectionsMenu GetConnectionButton
-bypass5 = 0xAFDA30 --ConnectionsMenu CreateConnectionButton
-bypass6 = 0x5680E4 --BackendManager GetSessionToken
-bypass7 = 0x567F84 --BackendManager SetSessionToHeaders
-bypass8 = 0x6D1E64 --abstract class ProfileCardFindRequ/GetHeaders
+bypass1 = 0x8E1014
+bypass2 = 0x536EAC
+bypass3 = 0x7A5FF8
+bypass4 = 0xAFC984 --ConnectionsMenu GetConnectionButton
+bypass5 = 0xAFCA30 --ConnectionsMenu CreateConnectionButton
+bypass6 = 0x5670E4 --BackendManager GetSessionToken
+bypass7 = 0x566F84 --BackendManager SetSessionToHeaders
+bypass8 = 0x6D0E64 --abstract class ProfileCardFindRequ/GetHeaders
 espradar = 0x8FBB38 --get_FollowedCharacterTeamIndex
 radarred = 0xA171D8 --get_SpottedLocally
 Tr1 = 0x1D08568 --Raycast(Vector3 origin, Vector3 direction, float
@@ -86,14 +86,14 @@ plywhlbn = 0x595B40 --setrankedenabled
 dambbots = 0x89A8B4 --isvalidtarget
 end
 if bit == 64 then
-bypass1 = 0xCDBDBC
-bypass2 = 0x9D91EC
-bypass3 = 0xBD96DC
-bypass4 = 0xE93588 --ConnectionsMenu GetConnectionButton
-bypass5 = 0xE93620 --ConnectionsMenu CreateConnectionButton
-bypass6 = 0xA017DC --BackendManager GetSessionToken
-bypass7 = 0xA016B4 --BackendManager SetSessionToHeaders
-bypass8 = 0xB2AA58 --abstract class ProfileCardFindRequ/GetHeaders
+bypass1 = 0xCDADBC
+bypass2 = 0x9D81EC
+bypass3 = 0xBD86DC
+bypass4 = 0xE92588 --ConnectionsMenu GetConnectionButton
+bypass5 = 0xE92620 --ConnectionsMenu CreateConnectionButton
+bypass6 = 0xA007DC --BackendManager GetSessionToken
+bypass7 = 0xA006B4 --BackendManager SetSessionToHeaders
+bypass8 = 0xB29A58 --abstract class ProfileCardFindRequ/GetHeaders
 espradar = 0xCF077C --get_followedcharacterteamindex
 radarred = 0xDD6340 --get_spottedlocally
 cindicato = 0xB777E8 --createfriendindicator
