@@ -1,9 +1,10 @@
---discord.gg/wila ----- Made By 🔱 LasTPoinT#4361 & Wilz#0422 🔱
-gameversion = "1.31.0.f1731"
+--discord.gg/wila
+--Made By 🔱 LasTPoinT#4361 & Wilz#0422 🔱
+gameversion = "1.31.0.f1728"
 bit = 31
 if bit == 31 then
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("h7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 28 88 3a 02 00 02 00 05", gg.TYPE_BYTE)
+gg.searchNumber("h7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 00 cc 3a 02 00 02 00 05", gg.TYPE_BYTE)
 gg.refineNumber("h7f", gg.TYPE_BYTE)
 if gg.getResultsCount() == 1 then
 bit = 32
