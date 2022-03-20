@@ -6,6 +6,8 @@ DESCR1 = "WİLA VİP SCRİPT💸 & 🔥LasTPoinT and Wilz"
 DESCR2 = ""
 DESCR3 = "📜 ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :"
 VERDESCR = "【"..gameversion.."】"
+menu32 = "❏ 3 ʙɪᴛ ᴍᴇɴᴜ"
+menu64 = "❏ 6 ʙɪᴛ ᴍᴇɴᴜ"
 if GAMEVER == 1 then
 bit = 31
 if bit == 31 then
