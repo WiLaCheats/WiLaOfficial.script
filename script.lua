@@ -2,6 +2,10 @@
 --Made By 🔱 LasTPoinT#4361 & Wilz#0422 🔱
 gameversion = "1.31.0.f1735"
 ScriptVer = "1.0"
+DESCR1 = "WİLA VİP SCRİPT💸 & 🔥LasTPoinT and Wilz"
+DESCR2 = ""
+DESCR3 = "📜 ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :"
+VERDESCR = "【"..gameversion.."】"
 if GAMEVER == 1 then
 bit = 31
 if bit == 31 then
