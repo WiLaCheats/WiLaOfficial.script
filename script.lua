@@ -1,6 +1,7 @@
 --discord.gg/wila
 --Made By 🔱 LasTPoinT#4361 & Wilz#0422 🔱
 gameversion = "1.31.0.f1735"
+ScriptVer = "1.0"
 if GAMEVER == 1 then
 bit = 31
 if bit == 31 then
