@@ -5,7 +5,7 @@ ScriptVer = "1.0"
 VERDESCR = "【"..gameversion.."】"
 DESCR1 = "WİLA VİP SCRİPT💸 & 🔥LasTPoinT and Wilz"
 DESCR2 = ""
-DESCR3 = "📜 ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :"..VERDESCR
+DESCR3 = "📜 ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :【"..gameversion.."】"
 menu32 = "❏ 32 ʙɪᴛ ᴍᴇɴᴜ"
 menu64 = "❏ 64 ʙɪᴛ ᴍᴇɴᴜ"
 
