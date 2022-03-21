@@ -2,7 +2,7 @@
 --Made By 🔱 LasTPoinT#4361 & Wilz#0422 🔱
 gameversion = "1.31.0.f1735"
 ScriptVer = "1.0"
-DESCR1 = "❏ WİLA VİP SCRİPT 🔱"
+DESCR1 = "❏ WILA Vip Script 🔱"
 DESCR2 = "❏ Made By 🔥 LasTPoinT & Wilz 🔥\n"
 DESCR3 = "❏ ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :"
 VERDESCR = "【"..gameversion.."】"
@@ -92,6 +92,7 @@ ptban2 = 0x5AFF18 --setstatus
 plywhlbn = 0x5B0218 --setrankedenabled
 dambbots = 0x89CBDC --isvalidtarget
 end
+
 if bit == 64 then
 bypass1 = 0xCE8F38
 bypass2 = 0x9E3E04
