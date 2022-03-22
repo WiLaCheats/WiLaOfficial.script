@@ -2,10 +2,7 @@
 --Made By 🔱 LasTPoinT#4361 & Wilz#0422 🔱
 gameversion = "1.31.0.f1735"
 ScriptVer = "1.0"
-DESCR1 = "❏ WILA Vip Script 🔱"
-DESCR2 = "❏ Made By 🔥 LasTPoinT & Wilz 🔥\n"
-DESCR3 = "❏ ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :"
-VERDESCR = "【"..gameversion.."】"
+DESCRALL = "❏ WILA Vip Script 🔱\n❏ Made By 🔥 LasTPoinT & Wilz 🔥\n❏ ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :"..gameversion.."\n"..bitselect
 menu32 = "❏ 32 ʙɪᴛ ᴍᴇɴᴜ"
 menu64 = "❏ 64 ʙɪᴛ ᴍᴇɴᴜ"
 
