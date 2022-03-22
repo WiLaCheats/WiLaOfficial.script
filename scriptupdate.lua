@@ -2,7 +2,9 @@
 --Made By 🔱 LasTPoinT#4361 & Wilz#0422 🔱
 gameversion = "1.31.0.f1735"
 ScriptVer = "1.0"
+if bit == 32 or bit == 64 then
 DESCRALL = "❏ WILA Vip Script 🔱\n❏ Made By 🔥 LasTPoinT & Wilz 🔥\n❏ ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :"..gameversion.."\n"..bitselect
+end
 menu32 = "❏ 32 ʙɪᴛ ᴍᴇɴᴜ"
 menu64 = "❏ 64 ʙɪᴛ ᴍᴇɴᴜ"
 
