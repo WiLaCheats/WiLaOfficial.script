@@ -107,7 +107,6 @@ cindicato = 0xB65848 --createfriendindi
 Tr1 = 0xDD1A24 --get_IsVisible / public class character model
 Tr2 = 0x1DE13D8 --Raycast(Vector3 origin, Vector3 direction, float
 norec = 0xDD9130 --applyrecoil
-aimasst = 0xBFD940 --get_gravityapproachfactor
 speeds = 0xDCFF2C --getcurrentmaxspeed
 hdrai = 0xB364CC --raycastcharacter
 byrai = 0xB364CC --raycastcharacter
