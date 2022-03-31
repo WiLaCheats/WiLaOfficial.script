@@ -1,4 +1,4 @@
---discord.gg/wila
+--discord.gg/hile
 --Made By 🔱 LasTPoinT#0001🔱
 gameversion = "1.31.0.f1735"
 ScriptVer = "1.0"
