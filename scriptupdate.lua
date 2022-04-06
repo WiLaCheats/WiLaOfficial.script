@@ -1,6 +1,6 @@
 --discord.gg/hile
 --Made By 🔱 LasTPoinT#0001🔱
-gameversion = "1.31.0.f1735"
+gameversion = "1.32.0.f1771"
 ScriptVer = "1.0"
 if bit == 32 or bit == 64 then
 DESCRALL = "❏ WILA Vip Script 🔱\n❏ Made By 🔥 LasTPoinT & Wilz 🔥\n❏ ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :【"..gameversion.."】\n"..bitselect
@@ -8,11 +8,11 @@ end
 menu32 = "❏ 32 ʙɪᴛ ᴍᴇɴᴜ"
 menu64 = "❏ 64 ʙɪᴛ ᴍᴇɴᴜ"
 
-il2cpp32 = "7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 50 aa 3a 02 00 02 00 05"
+il2cpp32 = "7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 0c bc 40 02 00 02 00 05 "
 
 unit32 = "7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 00 6c c8 00 00 02 00 05"
 
-il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 50 3c 71 00 00 00 00 00 40 00 00 00 00 00 00 00"
+il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 d0 40 72 00 00 00 00 00 40 00 00 00 00 00 00 00 "
 
 unit64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 70 9c 0a 00 00 00 00 00 40 00 00 00 00 00 00 00"
 
@@ -47,45 +47,45 @@ SMOKES = "8703"
 
 
 if bit == 32 then
-bypass1 = 0x8E2534
-bypass2 = 0x53D46C
-bypass3 = 0x6C83B4
-bypass4 = 0xB0FA50 --ConnectionsMenu GetConnectionButton
-bypass5 = 0xB0FAFC --ConnectionsMenu CreateConnectionButton
-bypass6 = 0x56A2BC --BackendManager GetSessionToken
-bypass7 = 0x56A15C --BackendManager SetSessionToHeaders
-bypass8 = 0x6AE924 --abstract class ProfileCardFindRequ/GetHeaders
-espradar = 0x8FE6B0 --get_FollowedCharacterTeamIndex
+bypass1 = 0x86F464
+bypass2 = 0x54D828
+bypass3 = 0x76E180
+bypass4 = 0x8FA9C4 --ConnectionsMenu GetConnectionButton
+bypass5 = 0x8FAA70 --ConnectionsMenu CreateConnectionButton
+bypass6 = 0x9CA5E4 --BackendManager GetSessionToken
+bypass7 = 0x9CA484 --BackendManager SetSessionToHeaders
+bypass8 = 0x8446A8 --abstract class ProfileCardFindRequ/GetHeaders
+espradar = 0x8826B4 --get_FollowedCharacterTeamIndex
 radarred = 0x9FED80 --get_SpottedLocally
-Tr1 = 0x1D08F90 --Raycast(Vector3 origin, Vector3 direction, float
-Tr2 = 0xA01A30 --get_IsVisible / public class charactermodel
-norec = 0xA0BA58 --applyrecoil
-sprd = 0xA0BBE0 --updatespread
-aimpnch = 0xA0BBE0 --applyaimpunch
-speee = 0x9FF7A4 --getcurrentmaxspeed
-hdrai = 0x6D76FC --raycastcharacters
-byrai = 0x6D76FC --raycastcharacters
-htb = 0x6D76FC --raycastcharacters
-noflsh = 0x6CCB44 --raycastgrenade
+Tr1 = 0x1D5AAA0 --Raycast(Vector3 origin, Vector3 direction, float
+Tr2 = 0xC425A4 --get_IsVisible / public class charactermodel
+norec = 0xC413A4 --applyrecoil
+sprd = 0xC41244 --updatespread
+aimpnch = 0xC41534 --applyaimpunch
+speee = 0x89DF18 --getcurrentmaxspeed
+hdrai = 0x60C4D0 --raycastcharacters
+byrai = 0x60C4D0 --raycastcharacters
+htb = 0x60C4D0 --raycastcharacters
+noflsh = 0x6018D0 --raycastgrenade
 wallbng = 0x6D66C0 --gethitmaterial
-nosmk = 0x6FD52C --ExplodeGrenade
-crossh = 0x795068 --get_Crosshair
-blur = 0xA98604 --set_spread
+nosmk = 0x7112F8 --ExplodeGrenade
+crossh = 0x2BFB7C --get_Crosshair
+blur = 0x1D62B28 --set_spread
 facedck = 0xA0494C --Crouchlerp
 spawntdm = 0xC33D9C --get_stats
-specteam = 0x8FDEBC --get_isviewlocalcharacter
+specteam = 0x881E2C --get_isviewlocalcharacter
 shtdie = 0x627D38 --characterfire
-stickwall = 0x1D0C52C  --get_normal / public struct RaycastHit
-bnnyhp = 0x1D0C540 --get_distance / public struct RaycastHit
+stickwall = 0x1245BC4  --get_normal / public struct RaycastHit
+bnnyhp = 0x1245BD8 --get_distance / public struct RaycastHit
 fOv = 0x42F164
-walkwall = 0x6027E8 --getcapsuleparameters
-reloadallow = 0x61EB7C --isreloadingpossible
-supresor = 0x7951A8 --get_suppressor
+walkwall = 0xA9628C --getcapsuleparameters
+reloadallow = 0xA938F0 --isreloadingpossible
+supresor = 0x2BFE5C --get_suppressor
 tutorialpas1 = 0x82B2E4 --class tutorialmanager
 tutorialpas2 = 0x82B5E4 --class tutorialmanager
 tutorialpas3 = 0x82ABF0 --class tutorialmanager
 tutorialpas4 = 0x82B684 --class tutorialmanager
-namespof = 0x6018EC --class killnotif
+namespof = 0x731D40 --class killnotif
 ptban1 = 0x5AF378 --get_issinglemember
 ptban2 = 0x5AFF18 --setstatus
 plywhlbn = 0x5B0218 --setrankedenabled
@@ -93,47 +93,47 @@ dambbots = 0x89CBDC --isvalidtarget
 end
 
 if bit == 64 then
-bypass1 = 0xCE8F38
-bypass2 = 0x9E3E04
-bypass3 = 0xB29828
-bypass4 = 0xEA2914 --ConnectionsMenu GetConnectionButton
-bypass5 = 0xEA29AC --ConnectionsMenu CreateConnectionButton
-bypass6 = 0xA09B5C --BackendManager GetSessionToken
-bypass7 = 0xA09A34 --BackendManager SetSessionToHeaders
-bypass8 = 0xB15AB8 --abstract class ProfileCardFindRequ/GetHeaders
-espradar = 0xCFFB30 --get_FollowedCharacterTeamIndex
+bypass1 = 0xBBE7E4
+bypass2 = 0x9FB0A4
+bypass3 = 0xC81ADC
+bypass4 = 0xD03460
+bypass5 = 0xD034F8
+bypass6 = 0xDAAD1C
+bypass7 = 0xDAABF4
+bypass8 = 0xC6CD44
+espradar = 0xCA177C --get_FollowedCharacterTeamIndex
 radarred = 0xDCF748 --get_SpottedLocally
 cindicato = 0xB65848 --createfriendindi
-Tr1 = 0xDD1A24 --get_IsVisible / public class character model
-Tr2 = 0x1DE13D8 --Raycast(Vector3 origin, Vector3 direction, float
-norec = 0xDD9130 --applyrecoil
-speeds = 0xDCFF2C --getcurrentmaxspeed
-hdrai = 0xB364CC --raycastcharacter
-byrai = 0xB364CC --raycastcharacter
-sprd = 0xDD9088 --updatespread
-aimpnch = 0xDD923C --applyaimpunch
-noflsh = 0xB2E2A0 --raycastgrenade
+Tr1 = 0xFB9C34 --get_IsVisible / public class character model
+Tr2 = 0x1E23698 --Raycast(Vector3 origin, Vector3 direction, float
+norec = 0xFB8CA8 --applyrecoil
+speeds = 0xFB8838 --getcurrentmaxspeed
+hdrai = 0xA96418 --raycastcharacter
+byrai = 0xA96418 --raycastcharacter
+sprd = 0xFB8BB0 --updatespread
+aimpnch = 0xFB8DC4 --applyaimpunch
+noflsh = 0xA8E1A0 --raycastgrenade
 nosmk = 0xB67AB4 --ExplodeGrenade
 wallbng = 0xB35C4C --gethitmaterial
-crossh = 0xBD614C --get_Crosshair
+crossh = 0x76593C --get_Crosshair
 blur = 0x1DE85C8 --set_spread
 facedck = 0xDD3F28 --Crouchlerp
 spawntdm = 0xF93170 --get_stats
-specteam = 0xCFF52C --get_isviewlocalcharacter
-shtdie = 0xAA5E10 --characterfire /c class localcharacter
-stickwall = 0x148D0DC  --get_normal / public struct RaycastHit
-bnnyhp = 0x148D0E8 --get_distance / public struct RaycastHit
+specteam = 0xCA1104 --get_isviewlocalcharacter
+shtdie = 0xE59B60 --characterfire /c class localcharacter
+stickwall = 0x14D47E4  --get_normal / public struct RaycastHit
+bnnyhp = 0x14D47F0 --get_distance / public struct RaycastHit
 fOv = 0xCF4100
-walkwall = 0xA88B88 --getcapsuleparametrs
-reloadallow = 0xA9EAEC --isreloadingpossible
-supresor = 0xBD6298 --get_suppressor
+walkwall = 0xE54758 --getcapsuleparametrs
+reloadallow = 0xE52610 --isreloadingpossible
+supresor = 0xBC25B8 --get_suppressor
 tutorialpas1 = 0xB01E84 --class tutorialmanager
 tutorialpas2 = 0xB0208C --class tutorialmanager
 tutorialpas3 = 0xAFAE6C --class tutorialmanager
 tutorialpas4 = 0xB02110 --class tutorialmanager
-namespof = 0xA88084 --class killnotif
+namespof = 0xB8BAFC --class killnotif
 ptban1 = 0xD945C4 --get_issinglemember
 ptban2 = 0xD94F10 --setstatus
-plywhlbn = 0xA43CF0 --setrankedenabled
-dambbots = 0xE0FDA8 --isvalidtarget
+plywhlbn = 0xC56EE0 --setrankedenabled
+dambbots = 0xC05C14 --isvalidtarget
 end
