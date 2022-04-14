@@ -48,14 +48,14 @@ SMOKES = "8703"
 
 
 if bit == 32 then
-bypass1 = 0x77C1FC
-bypass2 = 0x530E2C
-bypass3 = 0x8AFE1C
-bypass4 = 0x8C7964 --ConnectionsMenu GetConnectionButton
-bypass5 = 0x8C7A10 --ConnectionsMenu CreateConnectionButton
-bypass6 = 0xA632AC --BackendManager GetSessionToken
-bypass7 = 0xA6314C --BackendManager SetSessionToHeaders
-bypass8 = 0x761088 --abstract class ProfileCardFindRequ/GetHeaders
+bypass1 = 0x77B1FC
+bypass2 = 0x53FE2C
+bypass3 = 0x8AEE1C
+bypass4 = 0x8C6964 --ConnectionsMenu GetConnectionButton
+bypass5 = 0x8C6A10 --ConnectionsMenu CreateConnectionButton
+bypass6 = 0xA622AC --BackendManager GetSessionToken
+bypass7 = 0xA6214C --BackendManager SetSessionToHeaders
+bypass8 = 0x760088 --abstract class ProfileCardFindRequ/GetHeaders
 espradar = 0x8794CC --get_FollowedCharacterTeamIndex
 radarred = 0xA626E8 --getspottedstatus
 Tr1 = 0xC69304 --Raycast(Vector3 origin, Vector3 direction, float
@@ -93,14 +93,14 @@ dambbots = 0x89CBDC --isvalidtarget
 end
 
 if bit == 64 then
-bypass1= 0xCC7C6C
-bypass2 = 0xBCAAA0
-bypass3 = 0x9E1788
-bypass4 = 0xCDBB60
-bypass5 = 0xCDBBF8
-bypass6 = 0xE28034
-bypass7 = 0xE27F0C
-bypass8 = 0xBB56E4
+bypass1= 0xCC6C6C
+bypass2 = 0xBC9AA0
+bypass3 = 0x9E0788
+bypass4 = 0xCDAB60
+bypass5 = 0xCDABF8
+bypass6 = 0xE27034
+bypass7 = 0xE26F0C
+bypass8 = 0xBB46E4
 espradar = 0xC99AA8 --get_FollowedCharacterTeamIndex
 radarred = 0xCB87EC --getspottedstatus
 Tr1 = 0xFB9C34 --get_IsVisible / public class character model
