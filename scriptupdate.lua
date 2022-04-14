@@ -93,7 +93,7 @@ dambbots = 0x89CBDC --isvalidtarget
 end
 
 if bit == 64 then
-bypass 1= 0xCC7C6C
+bypass1= 0xCC7C6C
 bypass2 = 0xBCAAA0
 bypass3 = 0x9E1788
 bypass4 = 0xCDBB60
