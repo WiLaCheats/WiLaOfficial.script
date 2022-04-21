@@ -1,6 +1,5 @@
 discord.gg/hile
 --Made By 🔱 LasTPoinT#0001🔱
-bit=0
 gameversion = "1.32.0.f1790"
 ScriptVer = "1.0"
 if bit == 32 or bit == 64 then
