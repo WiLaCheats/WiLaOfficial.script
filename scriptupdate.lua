@@ -1,4 +1,4 @@
-discord.gg/hile
+--discord.gg/hile
 --Made By 🔱 LasTPoinT#0001🔱
 gameversion = "1.32.0.f1790"
 ScriptVer = "1.0"
@@ -92,14 +92,14 @@ dambbots = 0x89CBDC --isvalidtarget
 end
 
 if bit == 64 then
-baypas1 = 0xBCAAA0
-bypass2 = 0x9E1788
-baypas3 = 0xCC7C6C
-bypass4 = 0xD04460
-bypass5 = 0xCDBBF8
-bypass6 = 0xE28034
-bypass7 = 0xE27F0C
-bypass8 = 0xBB56E4
+bypass1 = 0xBC9AA0
+bypass2 = 0x9E0788
+baypas3 = 0xCC6C6C
+bypass4 = 0xD03460
+bypass5 = 0xCDABF8
+bypass6 = 0xE27034
+bypass7 = 0xE26F0C
+bypass8 = 0xBB46E4
 espradar = 0xC99AA8 --get_FollowedCharacterTeamIndex
 radarred = 0xA626E8 --get_SpottedLocally
 Tr1 = 0xFB9C34 --get_IsVisible / public class character model
@@ -107,13 +107,13 @@ Tr2 = 0x1E23698 --Raycast(Vector3 origin, Vector3 direction, float
 norec = 0xFD95B0 --applyrecoil
 aimasst = 0xDB6798 --get_gravityapproachfactor
 speeds = 0xFD9140 --getcurrentmaxspeed
-hdrain = 0xAD1FC4 --raycastcharacter
-byrain = 0xAD1FC4 --raycastcharacter
+hdrai = 0xAD1FC4 --raycastcharacter
+byrai = 0xAD1FC4 --raycastcharacter
 htbx = 0xAA85F0 --raycastcharacters
 sprd = 0xFD94B8 --updatespread
 aimpnch = 0xFD96CC --applyaimpunch
 noflsh = 0xAC9D4C --raycastgrenade
-wallbng = 0xB35C4C --gethitmaterial
+wollbng = 0xB35C4C --gethitmaterial
 crossh = 0xC0ADF4 --get_Crosshair
 blur = 0x1E33FFC --set_spread
 facedck = 0xDD3F28 --Crouchlerp
