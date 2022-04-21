@@ -1,5 +1,6 @@
---discord.gg/hile
+discord.gg/hile
 --Made By 🔱 LasTPoinT#0001🔱
+bit=0
 gameversion = "1.32.0.f1790"
 ScriptVer = "1.0"
 if bit == 32 or bit == 64 then
@@ -109,7 +110,7 @@ aimasst = 0xDB6798 --get_gravityapproachfactor
 speeds = 0xFD9140 --getcurrentmaxspeed
 hdrain = 0xAD1FC4 --raycastcharacter
 byrain = 0xAD1FC4 --raycastcharacter
-htbx = 0xAA85F0 - --raycastcharacters
+htbx = 0xAA85F0 --raycastcharacters
 sprd = 0xFD94B8 --updatespread
 aimpnch = 0xFD96CC --applyaimpunch
 noflsh = 0xAC9D4C --raycastgrenade
