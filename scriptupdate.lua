@@ -47,9 +47,9 @@ SMOKES = "8703"
 
 
 if bit == 32 then
-bypass1 = 0x77B1FC
+bypass3 = 0x77B1FC
 bypass2 = 0x53FE2C
-bypass3 = 0x8AEE1C
+bypass1 = 0x8AEE1C
 bypass4 = 0x8C6964 --ConnectionsMenu GetConnectionButton
 bypass5 = 0x8C6A10 --ConnectionsMenu CreateConnectionButton
 bypass6 = 0xA622AC --BackendManager GetSessionToken
