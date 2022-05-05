@@ -1,6 +1,6 @@
 --discord.gg/hile
 --Made By 🔱 LasTPoinT#0001🔱
-gameversion = "1.32.0.f1802"
+gameversion = "1.32.0.f1808"
 ScriptVer = "1.0"
 if bit == 32 or bit == 64 then
 DESCRALL = "❏ WILA Vip Script 🔱\n❏ Made By 🔥 LasTPoinT & Wilz 🔥\n❏ ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :【"..gameversion.."】\n"..bitselect
@@ -13,8 +13,8 @@ il2cpp32 = "7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00
 
 unit32 = "7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 00 6c c8 00 00 02 00 05"
 
-il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 c0 76 72 00 00 00 00 00 40 00 00 00 00 00 00 00"
-unit64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 60 9c 0a 00 00 00 00 00 40 00 00 00 00 00 00 00"
+il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 b0 dd 72 00 00 00 00 00 40 00 00 00 00 00 00 00 80 f3 aa 02 00 00 00 00 00 00 00 00 40 00 38 00 07 00 40 00 1c 00 1b 00 01 00 00 00 05 00"
+unit64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 60 9c 0a 00 00 00 00 00 40 00 00 00 00 00 00 00 68 0b 09 01 00 00 00 00 00 00 00 00 40 00 38 00 08 00 40 00 1d 00 1c 00 01 00 00 00 05 00"
 
 AUGS = "7040"
 URATIOS = "9396"
@@ -91,28 +91,28 @@ dambbots = 0x89CBDC --isvalidtarget
 end
 
 if bit == 64 then
-bypass1 = 0xBFE548
-bypass2 = 0x9EB2F8
-bypass3 = 0xCC8EA4
-bypass4 = 0xC93C24
-bypass5 = 0xC93CBC
-bypass6 = 0xDC5AB0
-bypass7 = 0xDC5988
-bypass8 = 0x8436A8
-espradar = 0xC6E090 --get_FollowedCharacterTeamIndex
+bypass1 = 0xC77810
+bypass2 = 0x9F4D38
+bypass3 = 0xD1CE5C
+bypass4 = 0xCDFB00
+bypass5 = 0xCDFB98
+bypass6 = 0xDEF3C4
+bypass7 = 0xDEF29C
+bypass8 = 0xB90CD8
+espradar = 0xCB8F6C --get_FollowedCharacterTeamIndex
 radarred = 0xA626E8 --get_SpottedLocally
 Tr1 = 0xFB9C34 --get_IsVisible / public class character model
 Tr2 = 0x1E23698 --Raycast(Vector3 origin, Vector3 direction, float
-norec = 0x10031C0 --applyrecoil
-aimasst = 0xDB6798 --get_gravityapproachfactor
-speeds = 0x1002D50 --getcurrentmaxspeed
-hdrai = 0xA79F54 --raycastcharacter
-byrai = 0xA79F54 --raycastcharacter
+norec = 0xFE17F4 --applyrecoil
+aimasst = 0xD678C0 --get_gravityapproachfactor
+speeds = 0xFE1384 --getcurrentmaxspeed
+hdrai = 0xA70E7C --raycastcharacter
+byrai = 0xA70E7C --raycastcharacter
 htbx = 0xAA85F0 --raycastcharacters
-sprd = 0x10030C8 --updatespread
-aimpnch = 0x10032DC --applyaimpunch
-noflsh = 0xA71CDC --raycastgrenade
-wollbng = 0xA79A00 --gethitmaterial
+sprd = 0xFE16FC --updatespread
+aimpnch = 0xFE1910 --applyaimpunch
+noflsh = 0xA68C04 --raycastgrenade
+wollbng = 0xA70928 --gethitmaterial
 crossh = 0xBE36A4 --get_Crosshair
 blur = 0x1E3DA68 --set_spread
 facedck = 0xDD3F28 --Crouchlerp
