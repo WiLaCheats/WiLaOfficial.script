@@ -96,9 +96,9 @@ if bit == 64 then
 bypass1= 0xC76810
 bypass2 = 0x9F3D38
 bypass3 = 0xD1BE5C
-bypass4 = 0xCDEB98
-bypass5 = 0xDEE3C4
-bypass6 = 0xCDEB00
+bypass4 = 0xCDEB00
+bypass5 = 0xCDEB98
+bypass6 = 0xDEE3C4
 bypass7 = 0xDEE29C
 bypass8 = 0xB8FCD8
 espradar = 0xCB8F6C --get_FollowedCharacterTeamIndex
