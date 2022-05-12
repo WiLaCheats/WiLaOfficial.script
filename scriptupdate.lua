@@ -92,11 +92,11 @@ dambbots = 0x70F478 --isvalidtarget
 end
 
 if bit == 64 then
-baypas1 = 0xC654E0
+byypas1 = 0xC654E0
 bypass2 = 0x9F146C
 bypass3 = 0xCD3CF4
 bypass4 = 0xCB6668
-baypas5 = 0xCB6700
+bypas5 = 0xCB6700
 bypass6 = 0xDE7DA8
 bypass7 = 0xDE7C80
 bypass8 = 0xBA2E94
