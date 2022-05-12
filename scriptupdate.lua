@@ -92,14 +92,14 @@ dambbots = 0x70F478 --isvalidtarget
 end
 
 if bit == 64 then
-bypass1 = 0xC654E0
-bypass2 = 0x9F146C
-bypass3 = 0xCD3CF4
-bypass4 = 0xCB6668
-bypass5 = 0xCB6700
-bypass6 = 0xDE7DA8
-bypass7 = 0xDE7C80
-bypass8 = 0xBA2E94
+bypass1 =   0xC644E0
+bypass2 =  0x9F046C
+bypass3 =  0xCD2CF4
+bypass4 =  0xCB5668
+bypass5 =  0xCB5700
+bypass6 =  0xDE6DA8
+bypass7 =  0xDE6C80
+bypass8 =  0xBA1E94
 espradar = 0xC7537C --get_FollowedCharacterTeamIndex
 radarred = 0xCD0038 --getspottedstatus
 Tr1 = 0xFE2780 --get_IsVisible / public class character model
