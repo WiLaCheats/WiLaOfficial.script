@@ -1,6 +1,6 @@
 --discord.gg/hile
 --Made By 🔱 LasTPoinT#0001🔱
-gameversion = "1.32.0.f1808"
+gameversion = "1.32.0.f1814"
 ScriptVer = "1.0"
 if bit == 32 or bit == 64 then
 DESCRALL = "❏ WILA Vip Script 🔱\n❏ Made By 🔥 LasTPoinT & Wilz 🔥\n❏ ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :【"..gameversion.."】\n"..bitselect
@@ -13,10 +13,9 @@ il2cpp32 = "7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00
 
 unit32 = "7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 b4 0c ca 00 00 02 00 05"
 
-il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 b0 dd 72 00 00 00 00 00 40 00 00 00 00 00 00 00"
+il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 50 e4 72 00 00 00 00 00 40 00 00 00 00 00 00 00"
 
-unit64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 70 9c 0a 00 00 00 00 00 40 00 00 00 00 00 00 00"
-
+unit64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 60 9c 0a 00 00 00 00 00 40 00 00 00 00 00 00 00"
 
 AUGS = "7040"
 URATIOS = "9396"
@@ -93,14 +92,14 @@ dambbots = 0x70F478 --isvalidtarget
 end
 
 if bit == 64 then
-bypass1= 0xC76810
-bypass2 = 0x9F3D38
-bypass3 = 0xD1BE5C
-bypass4 = 0xCDEB00
-bypass5 = 0xCDEB98
-bypass6 = 0xDEE3C4
-bypass7 = 0xDEE29C
-bypass8 = 0xB8FCD8
+baypas1 = 0xC654E0
+bypass2 = 0x9F146C
+bypass3 = 0xCD3CF4
+bypass4 = 0xCB6668
+baypas5 = 0xCB6700
+bypass6 = 0xDE7DA8
+bypass7 = 0xDE7C80
+bypass8 = 0xBA2E94
 espradar = 0xCB8F6C --get_FollowedCharacterTeamIndex
 radarred = 0xCD0038 --getspottedstatus
 Tr1 = 0xFE2780 --get_IsVisible / public class character model
