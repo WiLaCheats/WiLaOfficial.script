@@ -90,14 +90,14 @@ dambbots = 0x70F478 --isvalidtarget
 end
 
 if bit == 64 then
-bypass1 =   0xC59524
-bypass2 =  0x8F4264
-bypass3 =  0xCD886C
-bypass4 =  0xCBB6AC
-bypass5 =  0xCBB744
-bypass6 =  0xDEADEC
-bypass7 =  0xDEACC4
-bypass8 =  0xC5478C
+bypass1 =  0xC68524
+bypass2 =  0x9F3264
+bypass3 =  0xCD6D38
+bypass4 = 0xCBA6AC --ConnectionsMenu GetConnectionButton
+bypass5 = 0xCBB744 --ConnectionsMenu CreateConnectionButton
+bypass6 = 0xDD9DEC --BackendManager GetSessionToken
+bypass7 = 0xDD9CC4 --BackendManager SetSessionToHeaders
+bypass8 = 0xC5378C --abstract class ProfileCardFindRequ/GetHeaders
 espradar = 0xC793C0 --get_FollowedCharacterTeamIndex
 radarred = 0xCD0038 --getspottedstatus
 Tr1 = 0xFE2780 --get_IsVisible / public class character model
